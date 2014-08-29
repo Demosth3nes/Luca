@@ -1,0 +1,30 @@
+﻿@import 'compass';
+@import 'normalize.scss';
+@import 'modules/header.scss';
+@import 'modules/footer.scss';
+
+
+
+body {
+
+}
+
+.jumbotron-container{
+    max-width:960px;
+    margin:0 auto;
+    /*   Slider  */
+    .bb_slide-viewer{
+        position:relative;
+        overflow:hidden;
+    }
+
+    .bb_slide-group{
+        position:relative;
+        transition:1s all ease; 
+    }
+
+    img{
+
+        float:left;
+    }
+}
