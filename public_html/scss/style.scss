@@ -1,0 +1,594 @@
+/* 
+    Created on : 29-Aug-2014, 14:23:28
+    Author     : Jermaine
+*/
+
+@import 'compass';
+@import 'normalize.scss';
+@import 'modules/header.scss';
+@import 'modules/footer.scss';
+@import 'fonts/sintony.scss';
+@import 'components/lightbox.scss';
+
+/*   Additional  */
+/*  Global Styles   */
+a{
+    text-decoration: none;
+    color:white;
+
+    &:visited{
+        color: white;
+    }
+    &:active{
+        color:white;
+    }
+}
+h1,h2,h3,h4,h5{
+    font-family: sintonyregular;
+    text-transform:uppercase;
+}
+h2{
+    font-size: 1.625em;
+
+
+}
+h3{
+    font-size: 1.375em;
+}
+
+body{
+    color: white;
+    background-color:#16181b;
+    max-width: 1600px;
+}
+
+/* Sprites*/
+.footer_logo, .arrow_up, .logo, .nav-toggle, .shoe_slider-arrow_left, .shoe_slider-arrow_right{
+    background: url("../graphics/sprites/sprites.png") no-repeat;
+}
+
+
+/*  Header*/
+
+/* Wrapper */
+header{
+    max-width: 1600px;
+    margin:0 auto;
+
+}
+
+.navbar{
+    top:0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+/*  Logo  */
+.logo-container{ 
+    width:100%;
+    height: 65px;
+    background-color: #732627;
+
+
+    .logo{
+        padding-bottom:25px;
+        text-indent:-9999px;
+        float:left;
+        background-position: -37.991455078125px -175.98577880859375px ;
+        width: 93px;
+        height: 28px;
+        margin: 20px 0 0 23px;
+        @include transition (all 0.5s ease-in-out);
+
+    }
+
+    /* Small line bars, toggle nav button*/
+    .nav-toggle{
+        float:right;
+        background-position: -96.98861694335938px -111.98294067382812px ;
+        width: 42px;
+        height: 25px;
+        margin:20px;
+        cursor:pointer;
+    }
+
+}
+
+/* Navigation  */
+nav{
+    
+}
+.nav-panel{
+    display:none;
+    text-align: center;
+    background-color:#272828;
+    text-transform:uppercase;
+    font:1.125em sintonyregular, sans-serif;
+    position:absolute;
+    width:100%;
+
+    li{
+        padding: 9px 0;
+        border-bottom: solid 1px #f0f0f0;   
+
+
+    }
+    li:last-of-type{
+        border-bottom:none;
+    }
+
+    a{
+        cursor: pointer;
+
+        &:hover{
+            color:#d76966;
+        }
+    }
+
+
+
+}
+
+
+/*   Jumbotron  */
+
+.jumbotron-container{
+
+    position:relative;
+
+    /*   Slider  */
+    .bb_slide-viewer{
+        position:relative;
+        overflow:hidden;
+    }
+
+    .bb_slide-group{
+        position:relative;
+        transition:1s all ease; 
+    }
+
+    .bb_slideimg{
+
+        float:left;
+    }
+    .bb_slide-buttons{
+        position: absolute;
+        bottom:20px;
+        left:50px;
+
+        .bb_slide-btn{
+            height:10px;
+            width:10px;
+            background:#cad5cb;
+            @include border-radius(50%);
+            border: 3px solid #cad5cb;
+            display: inline-block;
+            margin-left:15px;
+            cursor: pointer;
+
+
+        }
+        .active{
+            background: #fff; /* In case transparency is not recognized*/
+            background: rgba(0,0,0,0);
+
+        }
+
+    }
+}
+
+/*    End of Header   */
+
+/*   Main Content   */
+
+.content-wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    @include box-shadow(1px 0 11px 0 rgba(0, 0, 0, 0.41),
+    1px -18px 11px 11px rgba(0, 0, 0, 0) );
+    position: relative;
+    overflow:hidden;
+
+}
+
+/* Beginning of Information section*/
+.information{
+    overflow:hidden;
+    margin:0 auto;
+    width:291px;
+    max-width:1600px;
+
+
+    /* Each 'feature' article */
+    .feature{
+        width:100%;
+        float:none;
+        padding-top:55px;
+
+        /* Wrapping the content*/
+        .feature-wrapper{
+            width:90%;
+
+            h2 > span{
+                display: block; /* Use display block to create a new line*/
+            }
+
+            p{
+                color:#abbcc3;
+                font-size: 0.875em;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+/* End of Information Section */
+
+
+/* Shoe Slider*/
+.shoe_presentation{
+    max-width:1600px;
+    background:url(../graphics/shoe_slider/arena_background.jpg) no-repeat;
+    @include background-size(cover);
+    position:relative;
+
+
+    /* Title*/
+    h3{
+        text-align: center;
+        padding-top: 36px;
+        margin-bottom: 100px;
+    }
+
+    /* The left and right arrows */
+    .shoe_slider-arrow_left,.shoe_slider-arrow_right{
+        position:absolute;
+        width:40px;
+        height:67px;
+        cursor:pointer;
+    }
+
+    .shoe_slider-arrow_left{
+        background-position: -4.985786437988281px -5.991485595703125px ;
+        top:35%;
+        left:2%;
+
+    }
+
+    .shoe_slider-arrow_right{
+        background-position: -54.98577117919922px -6.9886322021484375px ;
+        top:35%;
+        right:2%;
+
+    }
+
+    /* The main container for the slider*/
+    .shoe_slider-viewer{
+        position:relative;
+        overflow:hidden;
+        margin:0 auto;
+        max-width:640px;  
+        width:49%;
+
+    }
+
+    /* This holds all the slides(images)*/
+    .shoe_slider-group{
+        width:400%;
+        @include transition(all 1.0s ease-in-out);
+        position:relative;
+
+        img{
+            width:25%;
+            float:left;
+            margin:0 auto;
+            max-width: 640px;
+        }
+    }
+    /* Text to be displayed on smaller screens*/
+    .controls_display-text{
+        text-align: center;
+        margin-top: 30px;
+        font-family:1.375em sintonyregular;
+        text-transform: uppercase;
+        color:#d76966;
+
+    }
+    /*  The main slider controls at the bottom */
+    .shoe_slider-controls{
+        width:95%;
+        margin:0 auto;
+        text-align: center;
+
+        li{
+            width:20%;
+            display: inline-block;
+            border-top:solid #fff 5px;
+            font-family: sintonyregular;
+            text-transform: uppercase;
+            cursor:pointer;
+            margin: 20px 0 73px 0;
+            padding-top: 12px;
+            text-indent: -9999px;
+
+
+        }
+    }
+}
+/* The active slide */
+.currentslide{
+    border-top-color:#d76966 !important;
+    color:#d76966;
+}
+
+/* End of Shoe Slider*/
+
+/* Beginning of Join Us section */
+.joinus{
+    background-color: #732628;
+    overflow:hidden;
+    max-width:1600px;
+
+    article{
+        margin:0 auto;
+        width:90%;
+        padding:10px;
+        /* The title */
+        h2{
+            line-height: 36px; 
+            font-size:1.35em;
+            padding-top:20px;
+            text-align: center;
+
+        }
+        h2 > span{
+            display: block;
+        }
+
+        p{
+            font-size: 0.875em;
+            line-height: 28px;
+
+            margin-bottom: 38px;
+        }
+
+        /* Join button*/
+        a{
+            text-align: center;
+            margin:0 auto;
+            background-color: white;
+            color:#732628;
+            border-radius: 5px;
+            display: block;
+            width:163px;
+            font:1.125em sintonyregular;
+            text-transform: uppercase;
+            padding: 20px;
+            @include box-sizing(border-box);
+
+            &:hover{
+                color:white;
+                background: #9D5254;
+            }   
+        }
+    }
+
+    /* Ipad image at the bottom*/
+    img{
+
+        width: 80%;
+        max-width: 568px;
+        display: block;
+        margin:33px auto -3px auto;
+
+    }
+
+}
+
+footer{
+
+    color:#737c85;
+    overflow:hidden;
+
+
+    .footer-nav{
+        width:145px;
+        margin:0 auto;
+
+
+        li{
+            font:1.375em sintonyregular;
+            padding-top:15px;
+        }
+
+        li:first-of-type{
+            text-transform:uppercase;
+            padding-top:30px;
+            font-size:1em;
+        }
+
+        a{
+            color:#737c85; 
+
+            &:visited{
+                color:#737c85;
+            }
+
+            &:hover{
+                color:#fff;
+            }
+
+        }
+    }
+    .arrow_up{
+        display: block;
+        width:67px;
+        height:67px;
+        background-position: -99.97158813476562px -5.97442626953125px ;
+        margin: 60px auto 0 auto;
+    }
+    .footer_logo{
+        margin: 78px auto 36px auto;
+        display: block;
+        height:58px;
+        width:58px;
+        background-position: -10.982940673828125px -91.9801025390625px ;
+    }
+    p{
+        font-size: 0.75em; 
+        text-align:center;
+        color:#737c85;
+    }
+
+}
+
+/*   Media Queries   */
+@media all and (max-device-width:640px ) and (max-device-height:400px )  {
+.navbar{
+    
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+}
+
+@media all and (max-width:600px ) {
+    .shoe_presentation{
+        .shoe_slider-viewer{
+            width:49%;
+        }
+    }
+}
+
+
+@media all and (min-width: 41.07em){
+
+    /*  Header    */ 
+
+    /*   Logo   */  
+    .logo-container{ 
+        width:20%;
+        background-color: #732627;
+        float:left;
+
+        .logo{
+
+            padding-right: 76px;
+        }
+
+        .nav-toggle{
+            display: none;
+        }
+
+    }
+
+    /* Navigation  */
+    .nav-panel{
+        display: block !important;
+        text-align: center;
+        float: right;
+        width:80%;
+        height:65px;
+        position:relative;
+
+
+        li{
+            display:inline-block;
+            padding:20px 10px;
+            border-bottom:none;
+        }
+
+    }
+
+    /*  End of Header  */ 
+
+    /*  Shoe Slider    */
+    .shoe_presentation{
+
+        .controls_display-text{
+            display: none;
+        }
+        /*  The main slider controls at the bottom */
+        .shoe_slider-controls{
+
+            li{
+                text-align: left;
+                width: 24%;     
+                text-indent: 0;
+            }
+        }
+        
+        .shoe_slider-viewer{
+            width:56%;
+        }
+    }
+
+    /* End of Shoe Slider*/
+
+}
+
+@media all and (min-width: 49.63em){
+
+    /* Information Section*/
+    .information{
+        width:100%;
+        padding:160px 0 160px 20px;
+
+        .feature{
+            width: 33.3%;
+            float:left;
+            padding-top: 0px;
+        }
+
+    }
+
+    /* End of Information */
+
+
+
+    /* End of join us */
+    footer{
+        .arrow_up{
+            float:right;
+            margin:64px 35px 0 0;
+        }
+    }
+}
+
+
+
+
+@media all and (min-width: 70.13em){
+    /* Join Us section*/
+    .joinus{
+        article{
+            margin:10px 0 0 30px;
+            width:487px;
+            float:left;
+
+            h2{
+                text-align: left;
+                font-size: 1.35em;
+            }    
+        }
+        img{
+            float:right;
+        }
+    }
+}
+@media all and (min-width: 71.5em){
+    .joinus{
+        img{
+            padding-right: 18px;
+        }
+    }
+
+}
+@media all and (min-width: 87.63em){
+    .logo-container{
+        .logo{
+            margin: 20px 0 0 177px;
+        }
+    } 
+}

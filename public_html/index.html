@@ -1,118 +1,210 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 8]>      <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js">
+    <!--<![endif]-->
+
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Luca</title>
-        <meta name="description" content="Luca is a website to show my pratical experience of creating websites from a design. It is made using HTML,CSS, Javascript and Jquery.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="js/vendor/modernizr.custom.19816.js"></script>
-        <link rel="stylesheet" href="css/styles.css">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
 
+        <title>Luca</title>
+        <meta content=
+              "Luca is a website to show my pratical experience of creating websites from a design. It is made using HTML,CSS, Javascript and Jquery."
+              name="description">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/vendor/min/modernizr.custom.min.js"></script>
+        <link rel="icon" 
+      type="image/png" 
+      href="favicon.ico">
 
     </head>
+
     <body>
         <!--[if lt IE 7]>
-            <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header>
+                    <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                <![endif]-->
 
-            <h1><a href="#">Luca</a> <span class="nav-toggle"></span></h1>
-            
-            <nav>
-                <ul class="nav-panel">
-                    <li><a href="#information">Info</a></li>
-                    <li><a href = "#shoe-slider">The Shoe</a></li>
-                    <li><a href="#joinus">Involvement</a></li>
-                </ul>
-            </nav>
-            <div class="jumbotron-container" >
+        <header id="header">
+            <div class = "navbar">
+                <div class="logo-container">
+                    <a href="index.html">
+                        <h1 class="logo">Luca</h1></a><span class="nav-toggle"></span>
+                </div>
+
+                <nav>
+                    <ul class="nav-panel">
+                        <li class ="nav_information ">
+                            <a>Info</a>
+                        </li>
+
+                        <li class = "nav_presentation ">
+                            <a>The Shoe</a>
+                        </li>
+
+                        <li class = "nav_joinus ">
+                            <a>Involvement</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="jumbotron-container">
                 <div class="bb_slider" id="bb_slider">
                     <div class="bb_slide-viewer">
                         <div class="bb_slide-group">
-                            <div class="bb_slide">
-                                <img class="bb_slideimg" src="graphics/jumbotron/basketball_freeway-x640.jpg" alt=""/>
-                            </div>
-                            <div class="bb_slide ">
-                                <img class="bb_slideimg" src="graphics/jumbotron/basketball_humanitz-x640.jpg" alt=""/>
-                            </div>
-                            <div class="bb_slide ">
-                                <img class="bb_slideimg" src="graphics/jumbotron/basketball_republica-x640.jpg" alt=""/>
-                            </div>
-                            <div class="bb_slide">
-                                <img class="bb_slideimg" src="graphics/jumbotron/basketball_top-x640.jpg" alt=""/>
+                            <div class="bb_slide"><img alt="A basketball match played near a freeway. © Flickr User 'jeromevial,https://www.flickr.com/photos/jeromevial/4396754573'"
+                                                       class="bb_slideimg" src=
+                                                       "graphics/jumbotron/basketball_freeway-x640.jpg" ></div>
+
+                            <div class="bb_slide"><img alt="A basketball court in Washington D.C.,© Flickr User daquellamanera,https://www.flickr.com/photos/daquellamanera/5514904895"
+                                                       class="bb_slideimg" src=
+                                                       "graphics/jumbotron/basketball_humanitz-x640.jpg"></div>
+
+                            <div class="bb_slide"><img alt="Basketball court, Republica de La Boca,© Flickr User 'philliecasablanca',https://www.flickr.com/photos/philliecasablanca/2052763700"
+                                                       class="bb_slideimg" src=
+                                                       "graphics/jumbotron/basketball_republica-x640.jpg"></div>
+
+                            <div class="bb_slide"><img alt="Top down view of a basketball rim.© Flickr User stalkerr,https://www.flickr.com/photos/stalkerr/" class=
+                                                       "bb_slideimg" src="graphics/jumbotron/basketball_top-x640.jpg"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bb_slide-buttons"></div>
+            </div>
+        </header>
+
+        <main>
+            <div class="content-wrapper">
+                <section class="information" id="information">
+                    <article class="feature">
+                        <div class="feature-wrapper">
+                            <h2>Blandit <span>Tincidunt Metus</span></h2>
+
+                            <p>Proin eget tortor malesuada, dapibus mi pretium, semper diam. Donec in
+                                rutrum turpis. Duis eu faucibus est. Aliquam vitae nibh vestibulum, rhoncus
+                                augue eu, venenatis erat. Vivamus ipsum metus, sodales nec scelerisque
+                                faucibus, cursus in quam.</p>
+                        </div>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-wrapper">
+                            <h2>Metus <span>Pellentesque</span></h2>
+
+                            <p>Teque, euismod in malesuada sed, commodo et lacus. Maecenas gravida,
+                                lacus dictum eleifend facilisis, justo felis aliquam dui, nec sodales quam
+                                neque at mi. Cras lacinia a tellus eget tempus. Morbi ultrices tempus
+                                nulla, a ornare ante molestie in.</p>
+                        </div>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-wrapper">
+                            <h2>Blandit <span>Tincidunt Metus</span></h2>
+
+                            <p>Proin eget tortor malesuada, dapibus mi pretium, semper diam. Donec in
+                                rutrum turpis. Duis eu faucibus est. Aliquam vitae nibh vestibulum, rhoncus
+                                augue eu, venenatis erat. Vivamus ipsum metus, sodales nec scelerisque
+                                faucibus, cursus in quam.</p>
+                        </div>
+                    </article>
+                </section>
+            </div>
+
+            <div class="shoe_presentation" id="shoe_presentation" >
+                <div class="content-wrapper">
+                    <h3>Our Shoes.Our Way</h3>
+
+                    <div class="shoe_slider" id="shoe_slider">
+                        <div class="shoe_slider-viewer" id="shoe_slider-viewer">
+                            <div class="shoe_slider-group">
+                                <a href = "graphics/shoe_slider/shoe1x640.png" data-lightbox = "shoepic">
+                                <img alt="Shoes images, © Flickr User 'Ye-Wa',https://www.flickr.com/photos/ye-wa/10708847754/in/set-72157637379711344" class="shoe_slide" src=
+                                     "graphics/shoe_slider/shoe1x218.png"></a> 
+                                
+                                <a href = "graphics/shoe_slider/shoe2x640.png" data-lightbox = "shoepic">
+                                <img alt="Shoes images, © Flickr User 'Ye-Wa' https://www.flickr.com/photos/ye-wa/10709044963/in/set-72157637379711344" class="shoe_slide" src=
+                                     "graphics/shoe_slider/shoe2x218.png"></a>
+                                
+                                <a href = "graphics/shoe_slider/shoe3x640.png" data-lightbox = "shoepic">
+                                <img alt="Shoes images, © Flickr User 'Ye-Wa' https://www.flickr.com/photos/ye-wa/10709046283/in/set-72157637379711344" class="shoe_slide" src=
+                                     "graphics/shoe_slider/shoe3x218.png"></a>
+                                
+                                <a href = "graphics/shoe_slider/shoe4x640.png" data-lightbox = "shoepic">
+                                <img alt="Shoes images, © Flickr User 'Ye-Wa' https://www.flickr.com/photos/ye-wa/10709040533/in/set-72157637379711344" class="shoe_slide" src=
+                                     "graphics/shoe_slider/shoe4x218.png"></a>
                             </div>
                         </div>
                     </div>
+                    <span class="shoe_slider-arrow_left"></span> 
+                    <span class="shoe_slider-arrow_right"></span>
+
+                    <p class="controls_display-text">Performance</p>
+
+                    <ul class="shoe_slider-controls" id="shoe_slider-controls">
+                        <li class="currentslide">Performance</li>
+
+                        <li>Design</li>
+
+                        <li>Power</li>
+
+                        <li>Speed</li>
+                    </ul>
                 </div>
             </div>
-            <div class="bb_slide-buttons"></div>
-        </header>
-    <main>
-        <section id="information">
-            <article>
-                <h2>Blandit Tincidunt Metus</h2>
-                <p>Proin eget tortor malesuada, dapibus mi pretium, semper diam.
-                    Donec in rutrum turpis. Duis eu faucibus est. Aliquam vitae nibh vestibulum, rhoncus augue eu, venenatis erat.
-                    Vivamus ipsum metus, sodales nec scelerisque faucibus, cursus in quam. </p>
-            </article>
 
-            <article>
-                <h2>Metus Pellentesque</h2>
-                <p>Teque, euismod in malesuada sed, commodo et lacus. 
-                    Maecenas gravida, lacus dictum eleifend facilisis, justo felis aliquam dui, nec sodales quam neque at mi.
-                    Cras lacinia a tellus eget tempus. Morbi ultrices tempus nulla, a ornare ante molestie in. </p>
-            </article>
+            <div class="joinus" id="joinus">
+                <div class="content-wrapper">
+                    <article>
+                        <h2>Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit.</span></h2>
 
-            <article>
-                <h2>Blandit Tincidunt Metus</h2>
-                <p>Proin eget tortor malesuada, dapibus mi pretium, semper diam.
-                    Donec in rutrum turpis. Duis eu faucibus est. Aliquam vitae nibh vestibulum, rhoncus augue eu, venenatis erat.
-                    Vivamus ipsum metus, sodales nec scelerisque faucibus, cursus in quam. </p>
-            </article>
-        </section>
+                        <p>Sed facilisis quis sapien et facilisis. Maecenas rutrum augue ut nisl hendrerit
+                            facilisis. Donec sagittis sit amet odio id adipiscing. Fusce porttitor fermentum
+                            nibh. Aenean malesuada velit lectus, vel ullamcorper lacus ullamcorper et.<br>
+                            <br>
+                            Proin et tortor at justo vulputate tincidunt non sed justo. Vivamus scelerisque
+                            arcu at pretium pellentesque.</p><a href="#">join</a>
+                    </article><img alt="" src="graphics/joinus/ipad.png"></div>
+            </div>
+        </main>
 
-        <div id= "shoe-slider" class="shoe-slider">
+        <footer>
+            <div class ="content-wrapper">
 
-        </div>
-        <div id="joinus">
+                <ul class = "footer-nav">
+                    <li>
+                        <a href="index.html">Luca</a>
+                    </li>
 
-        </div>
-    </main>
-    <footer> 
-        <ul><li><a href="#">Luca</a></li>
-            <li><a href="#information">Info</a></li>
-            <li><a href = "#shoe-slider">The Shoe</a></li>
-            <li><a href="#joinus">Involvement</a></li>
-        </ul>
-    </footer>
+                    <li>
+                        <a href="#information">Information</a>
+                    </li>
 
+                    <li>
+                        <a href="#shoe_presentation">The Shoe</a>
+                    </li>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>');</script>
-    <script src="js/base.js"></script>
-    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
-    <script src="js/slider.js" type="text/javascript"></script>
+                    <li>
+                        <a href="#joinus">Involvement</a>
+                    </li>
+                </ul>
+                <a class = "arrow_up" href="#header"></a>
+                <a class = "footer_logo" href="index.html"></a>
+                <p>&copy; Jermaine De-Terville 2014</p>
+                <p>Shoe Slider background: &copy; Rondo Estrello,Dallas Art Nerd. www.rondostar.com </p>
+            </div>
+        </footer><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <script>
+            window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>');
+        </script> 
+        <script src="js/min/base.min.js"></script>
+        <script src="js/min/hammer.min.js"></script>
+        <script src="js/min/sliders.min.js"></script>
+        <script src="js/min/lightbox.min.js"></script>
 
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-                    function() {
-                        (b[l].q = b[l].q || []).push(arguments)
-                    });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = '//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-        }(window, document, 'script', 'ga'));
-        ga('create', 'UA-XXXXX-X');
-        ga('send', 'pageview');
-    </script>
-</body>
+    </body>
 </html>

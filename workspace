@@ -1,0 +1,263 @@
+<NotepadPlus>
+    <Project name="Luca">
+        <Folder name=".git">
+            <Folder name="branches" />
+            <Folder name="hooks" />
+            <Folder name="logs">
+                <Folder name="refs">
+                    <Folder name="heads">
+                        <File name=".git\logs\refs\heads\master" />
+                    </Folder>
+                    <Folder name="remotes">
+                        <Folder name="origin">
+                            <File name=".git\logs\refs\remotes\origin\master" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <File name=".git\logs\HEAD" />
+            </Folder>
+            <Folder name="objects">
+                <Folder name="06">
+                    <File name=".git\objects\06\222511fac48faf4d4efd195d2f29730bd75d3c" />
+                    <File name=".git\objects\06\e07d6ffa4dcb7716e0a18f40114a2f14c6c53f" />
+                </Folder>
+                <Folder name="08">
+                    <File name=".git\objects\08\d9c551261b40d1e46dd8342174aa569937ae40" />
+                </Folder>
+                <Folder name="0c">
+                    <File name=".git\objects\0c\cd3f48a6661e2638c0a6e4e56eba06db404363" />
+                </Folder>
+                <Folder name="10">
+                    <File name=".git\objects\10\7baca0cacf38116676cdbaf9615edef103d4c2" />
+                    <File name=".git\objects\10\d83e19f3ac439bc93fccc8226ea4b239b549df" />
+                </Folder>
+                <Folder name="13">
+                    <File name=".git\objects\13\eb2475872e4470528f25586396ae5279e48a11" />
+                </Folder>
+                <Folder name="1d">
+                    <File name=".git\objects\1d\eb751e28bdbf6d0fe0ac8a97ccc8e96846f94e" />
+                </Folder>
+                <Folder name="1e">
+                    <File name=".git\objects\1e\a85edc6fd9d63f688509c47959a98e10a1c0d0" />
+                </Folder>
+                <Folder name="26">
+                    <File name=".git\objects\26\b266b88078be6a37fdf6b0741157b739c3f3e2" />
+                </Folder>
+                <Folder name="27">
+                    <File name=".git\objects\27\37b939f51ccd1a9c9143935bc0530f2b43dfa5" />
+                </Folder>
+                <Folder name="2a">
+                    <File name=".git\objects\2a\b1db0f94dc39c21a5f9357b6bf001c518c70fc" />
+                </Folder>
+                <Folder name="2e">
+                    <File name=".git\objects\2e\363d21f07662461ba9732a95dbf26dcf2db572" />
+                </Folder>
+                <Folder name="32">
+                    <File name=".git\objects\32\9c7509daa9215f07c9979333bf39374c5d214f" />
+                </Folder>
+                <Folder name="33">
+                    <File name=".git\objects\33\653390e4f58f501264b71581bf587d7ebe0f11" />
+                </Folder>
+                <Folder name="39">
+                    <File name=".git\objects\39\8cf6e1b0e31891a76773cd5a21df0c776b2644" />
+                </Folder>
+                <Folder name="3b">
+                    <File name=".git\objects\3b\598b1d8cd75e4ca7533e6ebe13f0c61627011f" />
+                </Folder>
+                <Folder name="3f">
+                    <File name=".git\objects\3f\4a23599ba237146899cde870d1fdbca6d944d5" />
+                </Folder>
+                <Folder name="44">
+                    <File name=".git\objects\44\a9fecf43a62a318078fabaf7a083a2feacb53c" />
+                </Folder>
+                <Folder name="46">
+                    <File name=".git\objects\46\05bc9fa26aa1fa8cbd17b6380d188035e646b2" />
+                </Folder>
+                <Folder name="48">
+                    <File name=".git\objects\48\246fd28a8f5be2ed562de321a5ab4ce5337253" />
+                    <File name=".git\objects\48\82e7eb5e181f8eacee6a0460aeee00e7d9d6c0" />
+                </Folder>
+                <Folder name="5d">
+                    <File name=".git\objects\5d\9bfda437bed0698eb5aaedae501737d5f8b7cb" />
+                </Folder>
+                <Folder name="5f">
+                    <File name=".git\objects\5f\282702bb03ef11d7184d19c80927b47f919764" />
+                </Folder>
+                <Folder name="69">
+                    <File name=".git\objects\69\5b91cbdffb5e9f9f84ee5defc7277d28c646f0" />
+                </Folder>
+                <Folder name="6a">
+                    <File name=".git\objects\6a\38e724b4f33a3604f916e0e7d62f5c602b2ce7" />
+                </Folder>
+                <Folder name="6e">
+                    <File name=".git\objects\6e\1397b79a1679169bdbe9911aab60e75194f6f5" />
+                </Folder>
+                <Folder name="71">
+                    <File name=".git\objects\71\cc85375d6157373e005d2a47fd93117fa8bd57" />
+                </Folder>
+                <Folder name="73">
+                    <File name=".git\objects\73\cd15c4884762cd56a2d4ae4c4bb3d0f560cc77" />
+                </Folder>
+                <Folder name="88">
+                    <File name=".git\objects\88\a5ef69b6113bc719ad8f567563fcecabe50188" />
+                </Folder>
+                <Folder name="92">
+                    <File name=".git\objects\92\c100de9eee2fa077d2f314d917f505b767accd" />
+                </Folder>
+                <Folder name="a5">
+                    <File name=".git\objects\a5\c3e63c2b2f63061bb9eeb5dcaec15feef62760" />
+                </Folder>
+                <Folder name="ab">
+                    <File name=".git\objects\ab\28a24729b320bffd3d2f60302af949db39ab85" />
+                </Folder>
+                <Folder name="b2">
+                    <File name=".git\objects\b2\bc7b07f096e9fc55ed6cb86e251595b7ad9935" />
+                </Folder>
+                <Folder name="be">
+                    <File name=".git\objects\be\74abd69ad6a32de7375df13cab9354798e328f" />
+                </Folder>
+                <Folder name="ca">
+                    <File name=".git\objects\ca\a7cf6bcce0b2412281220dbbba70ae95408179" />
+                </Folder>
+                <Folder name="d1">
+                    <File name=".git\objects\d1\d7f8476fed4487d7cdccebcb16bedbecd32490" />
+                </Folder>
+                <Folder name="d7">
+                    <File name=".git\objects\d7\4b9b59baaf2e1f4815bb7d573a012a7db3e7e5" />
+                    <File name=".git\objects\d7\55942a2a5ca1cb07022805c71c349ed89d40da" />
+                </Folder>
+                <Folder name="dd">
+                    <File name=".git\objects\dd\296cb6e2312ca5a574da2f96b185a6cb42d5fc" />
+                </Folder>
+                <Folder name="df">
+                    <File name=".git\objects\df\b1d4d001184cd655abaec96f6e601a805bcdda" />
+                </Folder>
+                <Folder name="e6">
+                    <File name=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+                </Folder>
+                <Folder name="ec">
+                    <File name=".git\objects\ec\04e11e294fca86d385ff53ba3e76a8c94ed1e3" />
+                </Folder>
+                <Folder name="ee">
+                    <File name=".git\objects\ee\195d3b937edf86ad05724cda19df92668b2c6d" />
+                </Folder>
+                <Folder name="f1">
+                    <File name=".git\objects\f1\a525d5d65481c0627704f5a614d7768fa69de3" />
+                </Folder>
+                <Folder name="f7">
+                    <File name=".git\objects\f7\cca53ae97793cbe1bd7fe05b0fe669a46711bb" />
+                </Folder>
+                <Folder name="fb">
+                    <File name=".git\objects\fb\d00fe7d2e6206bdcf592b6e4eac155e28b3cfc" />
+                    <File name=".git\objects\fb\f2ed0516eab359ff100c63cef27561d4ec9175" />
+                </Folder>
+                <Folder name="fd">
+                    <File name=".git\objects\fd\ace4ab146cc40450c73419b8ff7286051d65e1" />
+                </Folder>
+                <Folder name="info" />
+                <Folder name="pack" />
+            </Folder>
+            <Folder name="refs">
+                <Folder name="heads">
+                    <File name=".git\refs\heads\master" />
+                </Folder>
+                <Folder name="remotes">
+                    <Folder name="origin">
+                        <File name=".git\refs\remotes\origin\master" />
+                    </Folder>
+                </Folder>
+                <Folder name="tags" />
+            </Folder>
+            <File name=".git\config" />
+            <File name=".git\HEAD" />
+            <File name=".git\index" />
+        </Folder>
+        <Folder name="config" />
+        <Folder name="Luca">
+            <File name="Luca\.gitattributes" />
+        </Folder>
+        <Folder name="nbproject">
+            <Folder name="private">
+                <File name="nbproject\private\private.properties" />
+                <File name="nbproject\private\private.xml" />
+            </Folder>
+            <File name="nbproject\project.properties" />
+            <File name="nbproject\project.xml" />
+        </Folder>
+        <Folder name="public_html">
+            <Folder name="css">
+                <Folder name="fonts">
+                    <File name="public_html\css\fonts\sintony.css" />
+                </Folder>
+                <File name="public_html\css\normalize.css" />
+                <File name="public_html\css\normalize_boilerplate.css" />
+                <File name="public_html\css\style.css" />
+            </Folder>
+            <Folder name="fonts">
+                <File name="public_html\fonts\sintony-regular-webfont.eot" />
+                <File name="public_html\fonts\sintony-regular-webfont.svg" />
+                <File name="public_html\fonts\sintony-regular-webfont.ttf" />
+                <File name="public_html\fonts\sintony-regular-webfont.woff" />
+            </Folder>
+            <Folder name="graphics">
+                <Folder name="jumbotron">
+                    <File name="public_html\graphics\jumbotron\basketball_freeway-x1600.jpg" />
+                    <File name="public_html\graphics\jumbotron\basketball_freeway-x640.jpg" />
+                    <File name="public_html\graphics\jumbotron\basketball_humanitz-x1600.jpg" />
+                    <File name="public_html\graphics\jumbotron\basketball_humanitz-x640.jpg" />
+                    <File name="public_html\graphics\jumbotron\basketball_republica-x1600.jpg" />
+                    <File name="public_html\graphics\jumbotron\basketball_republica-x640.jpg" />
+                    <File name="public_html\graphics\jumbotron\basketball_top-x1600.jpg" />
+                    <File name="public_html\graphics\jumbotron\basketball_top-x640.jpg" />
+                </Folder>
+                <Folder name="logo">
+                    <File name="public_html\graphics\logo\logo.gif" />
+                    <File name="public_html\graphics\logo\nav-toggle.gif" />
+                </Folder>
+            </Folder>
+            <Folder name="js">
+                <Folder name="min">
+                    <File name="public_html\js\min\base.min.js" />
+                    <File name="public_html\js\min\slider.min.js" />
+                </Folder>
+                <Folder name="plugin">
+                    <File name="public_html\js\plugin\hammer.min.js" />
+                </Folder>
+                <Folder name="vendor">
+                    <File name="public_html\js\vendor\jquery-1.11.1.min.js" />
+                    <File name="public_html\js\vendor\modernizr-latest.js" />
+                    <File name="public_html\js\vendor\modernizr.custom.19816.js" />
+                </Folder>
+                <File name="public_html\js\base.js" />
+                <File name="public_html\js\slider.js" />
+            </Folder>
+            <Folder name="prototype">
+                <Folder name="min">
+                    <File name="public_html\prototype\min\prototype_slider.min.js" />
+                </Folder>
+                <File name="public_html\prototype\index_prototype.html" />
+                <File name="public_html\prototype\prototype_styles.css" />
+                <File name="public_html\prototype\prototype_styles.scss" />
+                <File name="public_html\prototype\prototype_styles_OLD.scss" />
+            </Folder>
+            <Folder name="scss">
+                <Folder name="components" />
+                <Folder name="fonts">
+                    <File name="public_html\scss\fonts\sintony.scss" />
+                </Folder>
+                <Folder name="modules">
+                    <File name="public_html\scss\modules\footer.scss" />
+                    <File name="public_html\scss\modules\header.scss" />
+                </Folder>
+                <File name="public_html\scss\normalize.scss" />
+                <File name="public_html\scss\normalize_boilerplate.scss" />
+                <File name="public_html\scss\style.scss" />
+            </Folder>
+            <File name="public_html\404.html" />
+            <File name="public_html\apple-touch-icon-precomposed.png" />
+            <File name="public_html\favicon.ico" />
+            <File name="public_html\index.html" />
+        </Folder>
+        <Folder name="test" />
+    </Project>
+</NotepadPlus>
