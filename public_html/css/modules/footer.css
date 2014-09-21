@@ -1,0 +1,45 @@
+footer {
+  color: #737c85;
+  overflow: hidden;
+}
+footer .footer-nav {
+  width: 145px;
+  margin: 0 auto;
+}
+footer .footer-nav li {
+  font: 1.375em sintonyregular;
+  padding-top: 15px;
+}
+footer .footer-nav li:first-of-type {
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 1em;
+}
+footer .footer-nav a {
+  color: #737c85;
+}
+footer .footer-nav a:visited {
+  color: #737c85;
+}
+footer .footer-nav a:hover {
+  color: #fff;
+}
+footer .arrow_up {
+  display: block;
+  width: 67px;
+  height: 67px;
+  background-position: -99.97159px -5.97443px;
+  margin: 60px auto 0 auto;
+}
+footer .footer_logo {
+  margin: 78px auto 36px auto;
+  display: block;
+  height: 58px;
+  width: 58px;
+  background-position: -10.98294px -91.9801px;
+}
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #737c85;
+}
